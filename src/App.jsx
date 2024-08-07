@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Zap, Brain, MessageCircle, Eye } from "https://unpkg.com/lucide@latest";
+import { Zap, Brain, Send, Eye } from "https://unpkg.com/lucide@latest";
 function App() {
   return (
     <main className="font-Inter grid place-items-center md:h-screen">
@@ -47,7 +47,7 @@ function App() {
             </div>
             <div className="bg-primary-teal/10 flex justify-between rounded-md px-4 py-2">
               <div className="text-primary-teal/80 flex items-center text-sm font-semibold">
-                <MessageCircle className="me-2" size={15} /> Verbal
+                <Send className="me-2" size={15} /> Verbal
               </div>
               <div className="text-neutral-lavander flex items-center gap-2 font-bold">
                 <span className="text-neutral-gray font-bold">61</span> /
