@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Zap, Brain, Send, Eye } from "https://unpkg.com/lucide@latest";
+import { Zap, Brain, Send, Eye } from "lucide-react";
 function App() {
   return (
     <main className="font-Inter grid place-items-center md:h-screen">
@@ -29,7 +29,7 @@ function App() {
           <div className="flex flex-col gap-y-4">
             <div className="bg-primary-red/10 flex justify-between rounded-md px-4 py-2">
               <div className="text-primary-red/80 flex items-center text-sm font-semibold">
-                <Zap className="me-2" size={15} /> Reaction
+              <i class="fa-solid fa-bolt me-2"></i>Reaction
               </div>
               <div className="text-neutral-lavander flex items-center gap-2 font-bold">
                 <span className="text-neutral-gray font-bold">80</span> /
@@ -38,7 +38,7 @@ function App() {
             </div>
             <div className="bg-primary-yellow/10 flex justify-between rounded-md px-4 py-2">
               <div className="text-primary-yellow/80 flex items-center text-sm font-semibold">
-                <Brain className="me-2" size={15} /> Memory
+              <i class="fa-solid fa-brain me-2"></i>Memory
               </div>
               <div className="text-neutral-lavander flex items-center gap-2 font-bold">
                 <span className="text-neutral-gray font-bold">92</span> /
@@ -47,7 +47,7 @@ function App() {
             </div>
             <div className="bg-primary-teal/10 flex justify-between rounded-md px-4 py-2">
               <div className="text-primary-teal/80 flex items-center text-sm font-semibold">
-                <Send className="me-2" size={15} /> Verbal
+              <i class="fa-regular fa-comment me-2"></i> Verbal
               </div>
               <div className="text-neutral-lavander flex items-center gap-2 font-bold">
                 <span className="text-neutral-gray font-bold">61</span> /
@@ -56,7 +56,8 @@ function App() {
             </div>
             <div className="bg-primary-cobalt/10 flex justify-between rounded-md px-4 py-2">
               <div className="text-primary-cobalt/80 flex items-center text-sm font-semibold">
-                <Eye className="me-2" size={15} /> Visual
+                <i className="fa-solid fa-eye me-2"></i>
+                Visual
               </div>
               <div className="text-neutral-lavander flex items-center gap-2 font-bold">
                 <span className="text-neutral-gray font-bold">72</span> /
