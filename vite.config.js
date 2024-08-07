@@ -5,11 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    include: ['lucide-react'],
+    include: ['lucide'],
   },
   build: {
     rollupOptions: {
-      external: ['lucide-react'],
+      external: ['lucide'],
     },
   },
 })
