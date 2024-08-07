@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-light-red: 255 87 87;
+  --primary-orangey-yellow: 255 176 31;
+  --primary-green-teal: 0 189 145;
+  --primary-cobalt-blue: 17 37 212;
+  --gr-light-slate-blue: hsl(252, 100%, 67%);
+  --gr-light-royal-blue: hsl(241, 81%, 54%);
+  --gr-violet-blue: hsla(256, 72%, 46%, 1);
+  --gr-persian-blue: hsla(241, 72%, 46%, 0);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-pale-blue: hsl(0, 0%, 100%);
+  --neutral-lavander: hsl(241, 43%, 75%);
+  --neutral-gray-blue: 224 30% 27%;
+  --font-size-p: 18px;
+}
+
+@layer base {
+  @font-face {
+    font-family: "HankenGrotesk";
+    src: url(/fonts/Poppins.ttf) format("ttf");
+  }
+}
