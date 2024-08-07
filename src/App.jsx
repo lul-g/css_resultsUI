@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Zap, Brain, MessageCircle, Eye } from "lucide";
+import { Zap, Brain, MessageCircle, Eye } from "https://unpkg.com/lucide@latest";
 function App() {
   return (
     <main className="font-Inter grid place-items-center md:h-screen">
