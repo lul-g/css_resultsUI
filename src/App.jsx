@@ -31,7 +31,7 @@ function App() {
               <div className="text-primary-red/80 flex items-center text-sm font-semibold">
               <i class="fa-solid fa-bolt me-2"></i>Reaction
               </div>
-              <div className="text-neutral-lavander flex items-center gap-2 font-bold">
+              <div className="text-neutral-gray/50 flex items-center gap-2 font-bold">
                 <span className="text-neutral-gray font-bold">80</span> /
                 <span className="font-bold">100</span>
               </div>
@@ -40,7 +40,7 @@ function App() {
               <div className="text-primary-yellow/80 flex items-center text-sm font-semibold">
               <i class="fa-solid fa-brain me-2"></i>Memory
               </div>
-              <div className="text-neutral-lavander flex items-center gap-2 font-bold">
+              <div className="text-neutral-gray/50 flex items-center gap-2 font-bold">
                 <span className="text-neutral-gray font-bold">92</span> /
                 <span className="font-bold">100</span>
               </div>
@@ -49,7 +49,7 @@ function App() {
               <div className="text-primary-teal/80 flex items-center text-sm font-semibold">
               <i class="fa-regular fa-comment me-2"></i> Verbal
               </div>
-              <div className="text-neutral-lavander flex items-center gap-2 font-bold">
+              <div className="text-neutral-gray/50 flex items-center gap-2 font-bold">
                 <span className="text-neutral-gray font-bold">61</span> /
                 <span className="font-bold">100</span>
               </div>
@@ -59,7 +59,7 @@ function App() {
                 <i className="fa-solid fa-eye me-2"></i>
                 Visual
               </div>
-              <div className="text-neutral-lavander flex items-center gap-2 font-bold">
+              <div className="text-neutral-gray/50 flex items-center gap-2 font-bold">
                 <span className="text-neutral-gray font-bold">72</span> /
                 <span className="font-bold">100</span>
               </div>
